@@ -4,7 +4,7 @@ const path = require("path");
 const url = require('url');
 
 
-// process.env.NODE_ENV = 'production';
+process.env.NODE_ENV = 'production';
 
 const Store  = require('electron-store');
 
