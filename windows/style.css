@@ -1,0 +1,32 @@
+body {
+    background-color: rgba(116, 116, 116, 0.753);
+}
+.contact {
+    text-decoration: none;
+}
+
+.contact:hover {
+    text-decoration: none;
+    background-color: rgb(136, 132, 132);
+    transition: background 1s ease-in;
+    cursor: pointer;
+}
+.card {
+    justify-content: center;
+    align-items: flex-start;
+}
+.contact p {
+     margin-bottom: -2;
+      font-weight: 700;
+      font-size: 1.2rem;
+      justify-content: center;
+}
+.contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.cancel-contact {
+      display: none;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Keeper</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="logos/icon.png" alt="" width="40" height="40" class="d-inline-block align-content-center">
+            Contact Keeper
+          </a>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav  ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link user-link" href="#"></a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+      <div class="container">
+          <div class="row my-4">
+                 <div class="col-6">
+                     <h2 class='mx-2'>Add Contact</h2>
+                     <div class=" align-content-center">
+                        <form class='contact-form'>
+                            <div class="mb-2">
+                              <label for="name" class="form-label">Name</label>
+                              <input type="text" class="form-control" id="name" aria-describedby="name">
+                            </div>
+                            <div class="mb-2">
+                              <label for="email" class="form-label">Email</label>
+                              <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="mb-2">
+                                <label for="phone" class="form-label">Phone</label>
+                                <input type="text" class="form-control" id="phone">
+                              </div>
+                              <div class="mb-2">
+                                <input type="hidden" class="form-control" id="hidden-id">
+                              </div>
+
+                              <div class="mb-2">
+                                <label for="phone" class="form-label">Group</label>
+                                <select class="form-control" aria-label="Default select example" id='group'>
+                                    <option selected>Select Contact Group</option>
+                                    <option value="Family">Family</option>
+                                    <option value="Collegue">Collegue</option>
+                                    <option value="Friend">Friend</option>
+                                  </select>
+                              </div>
+                            <button type="button" class="btn btn-danger btn-block my-3 cancel-contact">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-block my-3 add-contact">Add Contact</button>
+                          </form>
+
+                     </div>
+                 </div>
+                 <div class="col-6 ">
+                    <div class=" align-content-center ">
+                        <h2 class='mx-2'>Your Contacts</h2>
+                         <div class="col-9 contact-info ">
+                                
+                         </div>
+                    </div>
+        
+                  </div>
+          </div>
+
+         
+      </div>
+      <script src="../js/mainWindow.js"></script>
+</body>
+</html>
